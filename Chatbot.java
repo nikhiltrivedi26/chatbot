@@ -2,7 +2,7 @@ import java.util.*;
 import java.io.*;
 
 public class Chatbot{
-	private static String filename = "./WARC201709_wid.txt";
+	private static String filename = "./WARC201709_wid.txt"; // enter your dataset path here
 	private static ArrayList<Integer> readCorpus(){
 		ArrayList<Integer> corpus = new ArrayList<Integer>();
 		try{
